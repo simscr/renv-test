@@ -15,7 +15,7 @@ theme_set(theme_bw(base_size = 15) +
 
 mpg |> 
   ggplot(aes(cty, hwy)) + 
-  geom_jitter(shape = 21, fill = "lightgreen", alpha = 0.5)
+  geom_jitter(shape = 21, fill = "orange", alpha = 0.5)
 
 
 lm(data = mpg, cty ~ hwy) |> 
